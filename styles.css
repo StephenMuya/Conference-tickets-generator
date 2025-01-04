@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+*{
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -8,7 +18,38 @@ body {
     url("assets/images/pattern-squiggly-line-bottom.svg"), 
     url("assets/images/pattern-squiggly-line-top.svg"),
     url("assets/images/background-desktop.png");
-    background-size: auto, auto, cover;
+    background-size: 630px, 250px, cover;
     color: white;
     margin-top: 50px;
 }
+
+.logo, .intro{
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 40px;
+}
+
+.intro p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.upload-avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:  2px dotted hsl(245, 15%, 58%);
+    height: 130px;
+    border-radius: 15px;
+}
+
+.upload-avatar img{
+    height: 50px;
+    width: 50px;
+}
+
+
+
