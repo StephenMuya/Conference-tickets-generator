@@ -10,7 +10,8 @@
 
 body {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, top right, right;
@@ -20,7 +21,7 @@ body {
     url("assets/images/background-desktop.png");
     background-size: 630px, 250px, cover;
     color: white;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .logo, .intro{
@@ -41,15 +42,56 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:  2px dotted hsl(245, 15%, 58%);
+    border:  2px dashed hsl(245, 15%, 58%);
     height: 130px;
     border-radius: 15px;
+    width: 510px;
 }
 
 .upload-avatar img{
     height: 50px;
     width: 50px;
 }
+
+.declaimer{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.declaimer p{
+    margin: 0;
+    margin-left: 10px;
+}
+
+form.container article{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    margin-top: 10px;
+}
+
+button{
+    width: 100%;
+}
+
+input, button{
+    height: 40px;
+    border-radius: 15px;
+    background-color: hsl(245, 19%, 35%, 0.3);
+    border: 0;
+}
+
+input{
+    padding-left: 10px;
+}
+
+button:hover{
+    background-color: hsl(7, 88%, 67%);
+}
+
 
 
 
