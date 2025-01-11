@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <section id="container">
+  <section id="intro">
 
     <article class="logo">
       <img src="assets\images\logo-full.svg" alt="full logo">
@@ -20,27 +20,29 @@
 
     <article class="intro">
       <h1>
-        Your Journey to Coding Conf 2025 Starts Here!
+        Your Journey to Coding Conf <br> <span>2025 Starts Here!</span>
       </h1>
       <p>
         Secure your spot at next year's biggest coding conference.
       </p>
     </article>
+  </section>
 
+  <section class="container">
     <p>Upload Avatar</p>
 
     <article class="upload-avatar">
       <img src="assets\images\icon-upload.svg" alt="avatar upload svg">
       <p>Drug or drop or click the icon</p>
+      <!--<p class="file-size-error">File too large. please upload a photo under 500kb</p>-->
     </article>
 
     <article class="declaimer">
-      <aside>
         <img src="assets\images\icon-info.svg" alt="declaimer svg">
         <p> Upload your photo (JPG or PNG, max size: 500KB).</p>
-      </aside>
     </article>
-    
+  </section>
+  
     <form class="container">
       <article>
         <label for="name">Full Name</label>
@@ -50,6 +52,7 @@
       <article>
         <label for="email">Email Address</label>
         <input type="email" id="email" placeholder="example@email.com">
+        <p class="email-error" style="display: none;">Please enter a valid email address</p>
       </article>
 
       <article>
@@ -57,10 +60,11 @@
         <input type="text" id="github" placeholder="Generate My Ticket">
       </article>
 
-      <article>
+      <div>
         <button>Generate My Ticket</button>
-      </article>
+      </div>
     </form>
   </section>
+
 </body>
 </html>
