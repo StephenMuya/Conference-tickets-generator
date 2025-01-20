@@ -22,13 +22,26 @@ body {
     margin-top: 60px;
 }
 
+.logo-two, 
+.confirmation{
+    display: grid;  
+    place-items: center
+}
+
+
+
+article.confirmation p{
+    font-size: 30px;
+    margin: 0;
+}
+
 #ticket-confirm{
     padding-top: 10px;
     position: relative;
 }
 
 #ticket-info{
-   top: 150px;
+   top: 250px;
     position: absolute;
 }
 
