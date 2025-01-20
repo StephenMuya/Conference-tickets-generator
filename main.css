@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, 
+    top left, 
+    bottom left, 
+    top right,
+    right,
+    bottom right;
+    background-image: 
+    url("assets/images/pattern-circle.svg"),
+    url("assets/images/pattern-lines.svg"),
+    url("assets/images/pattern-squiggly-line-bottom.svg"), 
+    url("assets/images/pattern-squiggly-line-top.svg"),
+    url("assets/images/background-desktop.png"),
+    url("assets/images/pattern-circle.svg");
+    background-size: 15%, 70%, 630px, 250px, cover, 15%;
+    color: white;
+    margin-top: 60px;
+}
+
+#ticket-confirm{
+    padding-top: 10px;
+    position: relative;
+}
+
+#ticket-info{
+   top: 150px;
+    position: absolute;
+}
+
+#ticket-info aside{
+    display: flex;
+}
