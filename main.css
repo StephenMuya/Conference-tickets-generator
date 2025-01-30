@@ -58,11 +58,19 @@ body article:nth-child(3){
 #ticket-info{
     display: flex;
     flex-direction: column;
-    top: 350px;
+    top: 450px;
     position: absolute;
 }
+#ticket-number,
+#name-email{
+    display: flex;
+}
 
-#name-email img{
+#name-email{
+    margin-top: 50px;
+}
+
+#ticket-info img{
     border-radius: 50%;
     height: 80px;
 }
