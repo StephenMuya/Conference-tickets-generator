@@ -70,7 +70,16 @@ body article:nth-child(3){
 .ticket-info img{
     border-radius: 10px;
     height: 50px;
-    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.name-email{
+    margin-top: 50px;
+}
+
+.name-email,
+.ticket-info{
+    margin-left: 50px;
 }
 
 div{
